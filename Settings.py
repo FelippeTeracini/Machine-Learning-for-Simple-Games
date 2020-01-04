@@ -1,12 +1,16 @@
-# Numbero de Inputs que o modelo recebe
-INPUTS = 2
-# Numbero de Outputs que o modelo retorna
+# Number of inputs that the model receives
+INPUTS = 4
+# Number of outputs that the model returns
 OUTPUTS = 2
-# Nome do jogo
-GAME = "MountainCar-v0"
-# Tamanho da Populacao
-POPULATION_SIZE = 500
-# Numero de Steps
+# Name of the game
+GAME = "CartPole-v0"
+# Population Size
+POPULATION_SIZE = 50
+# Number of Game Steps
 STEPS = 10000
-# Numero de Melhores
-N_BEST = POPULATION_SIZE//100
+# Quantity of best models
+N_BEST = POPULATION_SIZE//10
+# Save Name
+SAVE_NAME = "bestModels"
+# Render boolean
+RENDER = True
