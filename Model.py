@@ -1,14 +1,14 @@
 class Model:
 
     def __init__(self, brain):
-        # Neural Network do modelo
+        # The Model's Neural Network
         self.brain = brain
-        # Pontuacao do modelo
+        # The Model's score
         self.score = 0
-        # Memoria do modelo (Dados e acoes que foram executadas a partir deles)
+        # The Model's memory
         self.memory = []
 
-    # Tomada de decisao do modelo
-    def think(self, inputs):
-       return self.brain.predict(inputs)
+    # The Model's decision making
+    def think(self, obs):
+       return self.brain.predict(obs)
     
