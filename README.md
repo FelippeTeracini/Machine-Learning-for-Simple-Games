@@ -1,2 +1,2 @@
-# Machine-Learning-for-Street-Fighter
-A machine learning robot for Street Fighter
+# Machine-Learning-for-Simple-Games
+A machine learning robot for simple games
